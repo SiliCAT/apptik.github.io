@@ -13,7 +13,7 @@ layout: default
     <div class="row small-up-2 medium-up-3 large-up-4">
         {% for project in site.projects %}
         <div class="column">
-            <a href="{{ project.url }}">
+            <a href="{{site.baseurl}}{{ project.url }}">
                 <img class="thumbnail" src="http://placehold.it/550x550">
             </a>
             <h5>{{ project.title }}</h5>

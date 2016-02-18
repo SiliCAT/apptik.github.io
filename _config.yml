@@ -47,9 +47,11 @@ highlighter: rouge
 lsi:         false
 
 # Outputting
+baseurl:          "/foundation-jekyll-site-startup"
 permalink:        "/blog/:year/:title/"
 paginate_path:    "/blog/page:num"
 paginate:         5
+
 
 collections:
   projects:
