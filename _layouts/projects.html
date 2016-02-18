@@ -1,0 +1,27 @@
+---
+layout: default
+---
+
+<div class="">
+    <div class="callout primary">
+        <div class="row column">
+            <h2>Cool Projects!</h2>
+            <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus luctus urna sed
+                urna ultricies ac tempor dui sagittis. In condimentum facilisis porta.</p>
+        </div>
+    </div>
+    <div class="row small-up-2 medium-up-3 large-up-4">
+        {% for project in site.projects %}
+        <div class="column">
+            <a href="{{ project.url }}">
+                <img class="thumbnail" src="http://placehold.it/550x550">
+            </a>
+            <h5>{{ project.title }}</h5>
+        </div>
+        {% endfor %}
+    </div>
+</div>
+
+
+
+

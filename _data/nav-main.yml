@@ -1,0 +1,17 @@
+- link: Home
+  url: /
+
+- link: Blog
+  url: /blog
+
+- link: Projects
+  url: /projects
+
+- link: Apps
+  url: /apps
+
+- link: Sample Page
+  url: /samplepage
+
+- link: Kitchen Sink
+  url: /kitchen-sink

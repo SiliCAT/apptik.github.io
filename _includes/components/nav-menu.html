@@ -1,0 +1,23 @@
+<nav class="top-bar">
+    <div class="top-bar-title menu-text">
+          <span data-responsive-toggle="responsive-menu" data-hide-for="medium">
+            <span class="menu-icon dark" data-toggle></span>
+          </span>
+        <strong>Cool Site Title</strong>
+    </div>
+    <div id="responsive-menu">
+        <div class="top-bar-left">
+            <ul class="menu" data-menu>
+                {% for item in site.data.nav-main %}
+                <li><a href="{{ item.url }}">{{ item.link }}</a></li>
+                {% endfor %}
+            </ul>
+        </div>
+        <div class="top-bar-right">
+            <ul class="menu">
+                <li><input type="search" placeholder="Search"></li>
+                <li><button type="button" class="button">Search</button></li>
+            </ul>
+        </div>
+    </div>
+</nav>

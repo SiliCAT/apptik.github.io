@@ -1,0 +1,24 @@
+---
+layout: default
+---
+
+<div class="">
+    <div class="callout primary">
+        <div class="row column">
+            <h2>Cool Apps!</h2>
+            <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+    </div>
+    <div class="row small-up-1 medium-up-2 large-up-3" data-equalizer data-equalize-on="medium">
+        {% for itemh in site.data.apps %}
+        {% assign app = itemh[1] %}
+        <div class="column">
+            <a href="{{ app.store-url }}">
+                <img class="thumbnail" src="{{ app.thumb }}" data-equalizer-watch>
+            </a>
+            <h5>{{ app.name }}</h5>
+        </div>
+        {% endfor %}
+    </div>
+</div>
+
