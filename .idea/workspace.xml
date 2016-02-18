@@ -2,17 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f8beecac-fd87-44ba-98fe-6e1f871baf91" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_layouts/portfolio.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_layouts/posts.html" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_config.yml" afterPath="$PROJECT_DIR$/_config.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_includes/components/nav-footer.html" afterPath="$PROJECT_DIR$/_includes/components/nav-footer.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_includes/components/nav-menu.html" afterPath="$PROJECT_DIR$/_includes/components/nav-menu.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_includes/foot.html" afterPath="$PROJECT_DIR$/_includes/foot.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_includes/head.html" afterPath="$PROJECT_DIR$/_includes/head.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_layouts/projects.html" afterPath="$PROJECT_DIR$/_layouts/projects.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog/index.html" afterPath="$PROJECT_DIR$/blog/index.html" />
     </list>
     <ignored path="foundation-jekyll-site-startup.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -38,7 +29,7 @@
         <entry file="file://$PROJECT_DIR$/_config.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.3415638">
-              <caret line="49" column="7" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="7" />
+              <caret line="49" column="19" selection-start-line="49" selection-start-column="19" selection-end-line="49" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -165,10 +156,10 @@
         <option value="$PROJECT_DIR$/_includes/components/nav-footer.html" />
         <option value="$PROJECT_DIR$/_includes/components/nav-menu.html" />
         <option value="$PROJECT_DIR$/_includes/head.html" />
-        <option value="$PROJECT_DIR$/_config.yml" />
         <option value="$PROJECT_DIR$/_layouts/projects.html" />
         <option value="$PROJECT_DIR$/_layouts/posts.html" />
         <option value="$PROJECT_DIR$/blog/index.html" />
+        <option value="$PROJECT_DIR$/_config.yml" />
       </list>
     </option>
   </component>
@@ -839,7 +830,7 @@
     <entry file="file://$PROJECT_DIR$/_config.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.3415638">
-          <caret line="49" column="7" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="7" />
+          <caret line="49" column="19" selection-start-line="49" selection-start-column="19" selection-end-line="49" selection-end-column="19" />
           <folding />
         </state>
       </provider>
