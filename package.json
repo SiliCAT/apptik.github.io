@@ -1,7 +1,7 @@
 {
-  "name": "jekyll-foundation",
+  "name": "foundation-jekyll-site-startup",
   "version": "0.2.1",
-  "description": "Starting point for a Jekyll site that uses Zurb Foundation's Sass.",
+  "description": "Starting point for a Jekyll site that uses Zurb Foundation",
   "license": "MIT",
   "main": "gulpfile.js",
   "dependencies": {
@@ -34,9 +34,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/core77/jekyll-foundation.git"
+    "url": "https://github.com/apptik/foundation-jekyll-site-startup"
   },
   "bugs": {
-    "url": "https://github.com/core77/jekyll-foundation/issues"
+    "url": "https://github.com/apptik/foundation-jekyll-site-startup/issues"
   }
 }
