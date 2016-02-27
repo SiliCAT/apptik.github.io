@@ -47,6 +47,9 @@ javascript:
     - "assets/vendor/foundation-sites/js/foundation.tabs.js"
     - "assets/vendor/foundation-sites/js/foundation.toggler.js"
     - "assets/vendor/foundation-sites/js/foundation.tooltip.js"
+
+    #
+    # - "assets/vendor/foundation-sites/js/foundation.util.*.js"
     - "assets/vendor/foundation-sites/js/foundation.util.box.js"
     - "assets/vendor/foundation-sites/js/foundation.util.keyboard.js"
     - "assets/vendor/foundation-sites/js/foundation.util.mediaQuery.js"
