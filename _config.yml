@@ -47,7 +47,7 @@ highlighter: rouge
 lsi:         false
 
 # Outputting
-baseurl:          "test"
+baseurl:          ""
 permalink:        "/blog/:year/:title/"
 paginate_path:    "/blog/page:num"
 paginate:         5
