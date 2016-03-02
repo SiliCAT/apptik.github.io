@@ -1,9 +1,9 @@
 
 # Jekyll Foundation
 
-[![Build Status](https://travis-ci.org/apptik/foundation-jekyll-site-startup.svg)](https://travis-ci.org/apptik/foundation-jekyll-site-startup)
-[![devDependencies](https://david-dm.org/apptik/foundation-jekyll-site-startup/dev-status.svg)](https://david-dm.org/apptik/foundation-jekyll-site-startup#info=devDependencies)
-[![Join the chat at https://gitter.im/apptik/foundation-jekyll-site-startup](https://badges.gitter.im/apptik/foundation-jekyll-site-startup.svg)](https://gitter.im/apptik/foundation-jekyll-site-startup?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+[![Build Status](https://travis-ci.org/apptik/apptik.github.io.svg)](https://travis-ci.org/apptik/apptik.github.io)
+[![devDependencies](https://david-dm.org/apptik/apptik.github.io/dev-status.svg)](https://david-dm.org/apptik/apptik.github.io#info=devDependencies)
+[![Join the chat at https://gitter.im/apptik/apptik.github.io](https://badges.gitter.im/apptik/apptik.github.io.svg)](https://gitter.im/apptik/apptik.github.io?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 Quickstart your Jekyll (v3) project with Zurb Foundation for Sites (v6, sass).
 
