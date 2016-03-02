@@ -1,0 +1,31 @@
+---
+layout: default
+---
+
+<article>
+    <h1>{{ page.title }}</h1>
+    {{ content }}
+    {% if page.git %}
+    <p>
+        <a class="button" href="{{ page.git }}/issues/new"
+           title="Open An Issue/Enhancement request" target="_blank">
+            <i class="icon-comment icon-white"></i>Open An Issue/Enhancement request</a>
+    </p>
+    {% endif %}
+
+    <g:plusone></g:plusone>
+    <script type="text/javascript"
+            src="http://www.reddit.com/buttonlite.js?i=2&styled=off&url={{ site.url }}{{ site.baseurl }}{{ page.url }}&newwindow=1"></script>
+    {{ site.baseurl }}
+    <p>
+        <a href="http://www.instapaper.com/hello2?url={{ site.url }}{{ site.baseurl }}{{ page.url }}&amp;title={{ page.title }}"
+           title="Save {{ page.title }} to Instapaper" target="_blank">Read later {{ site.baseurl }}</a></p>
+
+    <p>
+        <a href="http://news.ycombinator.com/submitlink?u={{ site.url }}{{ site.baseurl }}{{ page.url }}&amp;t={{ page.title }}"
+           target="_blank"><img src="/erjjones/erjjones.github.com/raw/master/img/yc500.gif"
+                                title="Submit {{ page.title }} to Hacker News" style="max-width:100%;"></a></p>
+    <script src="https://apis.google.com/js/platform.js" async defer></script>
+
+</article>
+
