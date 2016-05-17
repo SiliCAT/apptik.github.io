@@ -23,9 +23,40 @@ layout: default
 
     <p>
         <a href="http://news.ycombinator.com/submitlink?u={{ site.url }}{{ site.baseurl }}{{ page.url }}&amp;t={{ page.title }}"
-           target="_blank"><img src="/erjjones/erjjones.github.com/raw/master/img/yc500.gif"
+           target="_blank"><img src="/raw/master/img/yc500.gif"
                                 title="Submit {{ page.title }} to Hacker News" style="max-width:100%;"></a></p>
     <script src="https://apis.google.com/js/platform.js" async defer></script>
 
+
+    <div class="span9 columns">
+        <h2>Comments Section</h2>
+        <p>Feel free to comment on the post but keep it clean and on topic.</p>
+
+    <div id="disqus_thread"></div>
+    <script>
+        /**
+         *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+         *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables
+         */
+        /*
+         var disqus_config = function () {
+         this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+         this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+         };
+         */
+        (function() {  // DON'T EDIT BELOW THIS LINE
+            var d = document, s = d.createElement('script');
+
+            s.src = '//apptik-jus.disqus.com/embed.js';
+
+            s.setAttribute('data-timestamp', +new Date());
+            (d.head || d.body).appendChild(s);
+        })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+    </div>
+
 </article>
 
+
+<script id="dsq-count-scr" src="//apptik-jus.disqus.com/count.js" async></script>

@@ -1,7 +1,7 @@
 # Site settings
 language:               "en"
-title:                  "JJ Crackers"
-description:            "some stuff and other stuff"
+title:                  "Apptik - Application Toolkit"
+description:            "useful tools for apps"
 google-verification:    ""
 
 # Handling Reading
@@ -47,6 +47,7 @@ highlighter: rouge
 lsi:         false
 
 # Outputting
+url:              "http://apptik.github.io"
 baseurl:          ""
 permalink:        "/blog/:year/:title/"
 paginate_path:    "/blog/page:num"
